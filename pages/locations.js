@@ -19,7 +19,7 @@ export default function Locations() {
   };
 
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyAEZ3QRAULYCdoF3C0gddKhaap7yZAv1Ms", // ,
+    googleMapsApiKey: "<<your google map key>>", // ,
     // ...otherOptions
   });
 
